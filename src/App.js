@@ -52,16 +52,16 @@ function App() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarTogglerDemo01">
-              <a className="navbar-brand" href="#" onClick={CourseYouClick}>CourseYou</a>
+              <a className="navbar-brand" href="/" onClick={CourseYouClick}>CourseYou</a>
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#" onClick={HomeClick}>Home</a>
+                  <a className="nav-link active" aria-current="page" href="/" onClick={HomeClick}>Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#" onClick={AboutClick}>About</a>
+                  <a className="nav-link active" href="/" onClick={AboutClick}>About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link active" href="#" onClick={ContactClick}>Contact</a>
+                  <a className="nav-link active" href="/" onClick={ContactClick}>Contact</a>
                 </li>
               </ul>
             </div>
@@ -93,7 +93,7 @@ function App() {
                       Reports</li>
                   </ul>
                   <div className="d-grid">
-                    <a href="#" className="btn btn-primary text-uppercase" onClick={FreeClick}>Button</a>
+                    <a href="/" className="btn btn-primary text-uppercase" onClick={FreeClick}>Button</a>
                   </div>
                 </div>
               </div>
@@ -117,7 +117,7 @@ function App() {
                       Reports</li>
                   </ul>
                   <div className="d-grid">
-                    <a href="#" className="btn btn-primary text-uppercase" onClick={PlusClick}>Button</a>
+                    <a href="/" className="btn btn-primary text-uppercase" onClick={PlusClick}>Button</a>
                   </div>
                 </div>
               </div>
@@ -142,7 +142,7 @@ function App() {
                     <li><span className="fa-li"><i className="fas fa-check"></i></span>Monthly Status Reports</li>
                   </ul>
                   <div className="d-grid">
-                    <a href="#" className="btn btn-primary text-uppercase" onClick={ProClick}>Button</a>
+                    <a href="/" className="btn btn-primary text-uppercase" onClick={ProClick}>Button</a>
                   </div>
                 </div>
               </div>
@@ -153,9 +153,9 @@ function App() {
       <div className='section-Three'>
         <footer className="py-3 my-4">
           <ul className="nav justify-content-center border-bottom pb-3 mb-3">
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted" onClick={HomeClick}>Home</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted" onClick={AboutClick}>About</a></li>
-            <li className="nav-item"><a href="#" className="nav-link px-2 text-muted" onClick={ContactClick}>Contact</a></li>
+            <li className="nav-item"><a href="/" className="nav-link px-2 text-muted" onClick={HomeClick}>Home</a></li>
+            <li className="nav-item"><a href="/" className="nav-link px-2 text-muted" onClick={AboutClick}>About</a></li>
+            <li className="nav-item"><a href="/" className="nav-link px-2 text-muted" onClick={ContactClick}>Contact</a></li>
           </ul>
           <p className="text-center text-muted">Darshan's Company © 2022, Inc</p>
         </footer>
